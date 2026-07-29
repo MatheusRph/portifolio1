@@ -1,0 +1,6 @@
+{
+  "name": "Jornada nos Trilhos - Portfólio",
+  "description": "Portfólio interativo com temática de trem e analogia com a jornada da vida, organizado nas estações Origem, Intermediária e Destino.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
