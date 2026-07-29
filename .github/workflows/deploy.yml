@@ -2,7 +2,7 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [ main ] # Altere para 'master' se a sua branch principal for essa
+    branches: [ main ]
 
 jobs:
   build-and-deploy:
@@ -22,7 +22,6 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 24
-          cache: 'npm'
 
       - name: Install dependencies
         run: npm i
